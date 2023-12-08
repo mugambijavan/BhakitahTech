@@ -1,14 +1,14 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiReact, DiNodejs, DiCss3, DiJavascript1, DiDatabase, DiSecurity, DiCloud } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListItem, ListContainer, ListTitle, ListParagraph } from './TechnologiesStyles';
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Driving Growth and Efficiency</SectionTitle>
+    <SectionTitle>Empowering Innovations Through Technology</SectionTitle>
     <SectionText>
-    Our developers demonstrate mastery across cutting-edge technologies
+      At BhakitahTech, our commitment to excellence is reflected in our adept use of cutting-edge technologies, agile development methodologies, and robust security practices.
     </SectionText>
     <List>
       <ListItem>
@@ -16,40 +16,75 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Front-End Technologies</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js <br />
-            Next.js <br />
-            Javascript <br />
-            HTML and CSS
+            Mastering the art of crafting engaging user interfaces using:
+            <br />
+            <DiReact /> React.js <br />
+            <DiReact /> Next.js <br />
+            <DiJavascript1 /> Javascript <br />
+            <DiCss3 /> HTML and CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="3rem" />
+          <DiNodejs size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Back-End Technologies</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node <br />
-            Typescript <br />
-            Tailwind <br />
-            SQL
+            Leveraging powerful back-end technologies for robust solutions:
+            <br />
+            <DiNodejs /> Node.js <br />
+            <DiNodejs /> Typescript <br />
+            <DiNodejs /> Tailwind <br />
+            <DiDatabase /> SQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <DiSecurity size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Security and Ethical Hacking</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Ensuring the highest level of security through:
+            <br />
+            <DiSecurity /> Rigorous security audits <br />
+            <DiSecurity /> Ethical hacking practices <br />
+            <DiSecurity /> Proactive vulnerability assessments
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiCloud size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Cloud Computing</ListTitle>
+          <ListParagraph>
+            Harnessing the power of cloud computing for scalability and efficiency:
+            <br />
+            <DiCloud /> Cloud infrastructure deployment <br />
+            <DiCloud /> Optimization for performance <br />
+            <DiCloud /> Seamless integration for agile development
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiSecurity size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Agile Development</ListTitle>
+          <ListParagraph>
+            Embracing agile methodologies for iterative and collaborative development:
+            <br />
+            <DiSecurity /> Adaptive planning and flexibility <br />
+            <DiSecurity /> Continuous feedback loops <br />
+            <DiSecurity /> Rapid responses to changing requirements
           </ListParagraph>
         </ListContainer>
       </ListItem>
