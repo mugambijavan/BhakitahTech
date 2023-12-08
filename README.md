@@ -1,4 +1,4 @@
 ## BhakitaTech
 
 
-## Launch your development career with project-based coaching - https://www.bhakitah.co.ke
+## Our mission is to turn your ideas into reality through cutting-edge software solutions.  - https://www.bhakitah.co.ke
