@@ -1,4 +1,3 @@
-User
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -7,9 +6,9 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Driving Growth and Efficiency</SectionTitle>
+    <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-    Our developers demonstrate mastery across cutting-edge technologies
+      At BhakitahTech, our commitment to excellence is reflected in our adept use of cutting-edge technologies, agile development methodologies, and robust security practices.
     </SectionText>
     <List>
       <ListItem>
@@ -20,10 +19,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js <br />
-            Next.js <br />
-            Javascript <br />
-            HTML and CSS
+            React.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,10 +31,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node <br />
-            Typescript <br />
-            Tailwind <br />
-            SQL
+            Node and Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
