@@ -16,13 +16,17 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End Technologies</ListTitle>
+          <ListTitle>Front-End and Back-End </ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js <br />
-            Next.js <br />
-            Javascript <br />
-            HTML and CSS
+          
+           - React.js <br />
+           - Next.js <br />
+           - Javascript <br />
+           - HTML and CSS <br />
+            - Node.js <br />
+            - Mongo DB <br />
+             - SQL <br />
+            - PayLoad CMS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,12 +35,12 @@ const Technologies = () =>  (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End Technologies</ListTitle>
+          <ListTitle>Cloud And Security</ListTitle>
           <ListParagraph>
-             Node.js <br />
-             Mongo DB <br />
-             SQL <br />
-             PayLoad CMS
+            - Proactive vulnerability assessments <br />
+            - Cloud infrastructure deployment<br />
+            - Optimization for performance  <br />
+            - Seamless integration for agile development
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -45,11 +49,11 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Agile Development</ListTitle>
+          <ListTitle>Agile Development </ListTitle>
           <ListParagraph>
-            Adaptive planning and flexibility <br />
-             Continuous feedback loops <br />
-             Rapid responses to changing requirements
+            - Adaptive planning and flexibility <br />
+            - Continuous feedback loops <br />
+            - Rapid responses to changing requirements
           </ListParagraph>
         </ListContainer>
       </ListItem>
