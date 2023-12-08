@@ -6,7 +6,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>BhakitahTech-Stack</SectionTitle>
     <SectionText>
       At BhakitahTech, our commitment to excellence is reflected in our adept use of cutting-edge technologies, agile development methodologies, and robust security practices.
     </SectionText>
@@ -16,10 +16,13 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Front-End Technologies</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js
+            React.js <br />
+            Next.js <br />
+            Javascript <br />
+            HTML and CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -28,10 +31,12 @@ const Technologies = () =>  (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Back-End Technologies</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+             Node.js <br />
+             Mongo DB <br />
+             SQL <br />
+             PayLoad CMS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -40,10 +45,11 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Agile Development</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Adaptive planning and flexibility <br />
+             Continuous feedback loops <br />
+             Rapid responses to changing requirements
           </ListParagraph>
         </ListContainer>
       </ListItem>
