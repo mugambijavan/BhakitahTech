@@ -1,14 +1,14 @@
 import React from 'react';
-import { DiReact, DiNodejs, DiCss3, DiJavascript1, DiDatabase, DiSecurity, DiCloud } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiCodeBraces } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListItem, ListContainer, ListTitle, ListParagraph } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Empowering Innovations Through Technology</SectionTitle>
+    <SectionTitle>Driving Growth with Cutting-Edge Technologies</SectionTitle>
     <SectionText>
-      At BhakitahTech, our commitment to excellence is reflected in our adept use of cutting-edge technologies, agile development methodologies, and robust security practices.
+      We pride ourselves on expertise in various domains, employing innovative technologies to craft seamless solutions.
     </SectionText>
     <List>
       <ListItem>
@@ -18,73 +18,51 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End Technologies</ListTitle>
           <ListParagraph>
-            Mastering the art of crafting engaging user interfaces using:
-            <br />
-            <DiReact /> React.js <br />
-            <DiReact /> Next.js <br />
-            <DiJavascript1 /> Javascript <br />
-            <DiCss3 /> HTML and CSS
+            Our front-end development harnesses the power of modern frameworks like React.js and Next.js, complemented by proficient use of Javascript, HTML, and CSS. These technologies form the backbone of captivating user interfaces and seamless user experiences.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiNodejs size="3rem" />
+          <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Back-End Technologies</ListTitle>
           <ListParagraph>
-            Leveraging powerful back-end technologies for robust solutions:
-            <br />
-            <DiNodejs /> Node.js <br />
-            <DiNodejs /> Typescript <br />
-            <DiNodejs /> Tailwind <br />
-            <DiDatabase /> SQL
+            In the back-end domain, our team excels in utilizing Node.js, Typescript, Tailwind, and SQL. These technologies are instrumental in building robust server-side applications, ensuring scalable, secure, and high-performing systems.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiSecurity size="3rem" />
+          <DiCodeBraces size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Security and Ethical Hacking</ListTitle>
+          <ListTitle>Agile Development Methodology</ListTitle>
           <ListParagraph>
-            Ensuring the highest level of security through:
-            <br />
-            <DiSecurity /> Rigorous security audits <br />
-            <DiSecurity /> Ethical hacking practices <br />
-            <DiSecurity /> Proactive vulnerability assessments
+            Our development process is deeply rooted in the Agile methodology. We embrace iterative development, quick feedback cycles, and adaptive planning. This ensures flexibility, responsiveness to change, and constant collaboration with clients throughout the project lifecycle.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiCloud size="3rem" />
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Security & Ethical Hacking</ListTitle>
+          <ListParagraph>
+            Security is our priority. Our team is well-versed in implementing security measures, conducting ethical hacking exercises, and employing best practices to fortify systems against potential vulnerabilities, ensuring data integrity and user privacy.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Cloud Computing</ListTitle>
           <ListParagraph>
-            Harnessing the power of cloud computing for scalability and efficiency:
-            <br />
-            <DiCloud /> Cloud infrastructure deployment <br />
-            <DiCloud /> Optimization for performance <br />
-            <DiCloud /> Seamless integration for agile development
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiSecurity size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Agile Development</ListTitle>
-          <ListParagraph>
-            Embracing agile methodologies for iterative and collaborative development:
-            <br />
-            <DiSecurity /> Adaptive planning and flexibility <br />
-            <DiSecurity /> Continuous feedback loops <br />
-            <DiSecurity /> Rapid responses to changing requirements
+            Leveraging the potential of cloud computing services, we optimize scalability, reliability, and performance. Our proficiency in cloud platforms enables us to build resilient and cost-effective solutions, empowering businesses to thrive in the digital era.
           </ListParagraph>
         </ListContainer>
       </ListItem>
