@@ -65,7 +65,7 @@ const Timeline = () => {
       src="https://mugambijavan.github.io/new-portfolio/"
       title="Developer"
       width="100%"
-      height="800px"
+      height="900px"
       frameBorder="0"
     ></iframe>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
