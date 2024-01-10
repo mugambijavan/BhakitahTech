@@ -49,7 +49,7 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Agile Development </ListTitle>
+          <ListTitle>Agile Development and Blockchain </ListTitle>
           <ListParagraph>
             - Adaptive planning and flexibility <br />
             - Continuous feedback loops <br />
