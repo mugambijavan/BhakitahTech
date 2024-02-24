@@ -61,13 +61,7 @@ const Timeline = () => {
       At BhakitahTech, we believe in harnessing the power of technology to drive growth and efficiency. We listen, collaborate, and innovate to create software that meets your unique needs, fuels your success, and makes an impact. 
       Today, we stand proud as a team of skilled developers, designers, and problem solvers who thrive on challenges and embrace change.
       </SectionText>
-    <iframe
-      src="https://mugambijavan.github.io/new-portfolio/"
-      title="Developer"
-      width="100%"
-      height="900px"
-      frameBorder="0"
-    ></iframe>
+   
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
