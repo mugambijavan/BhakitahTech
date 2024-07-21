@@ -21,16 +21,16 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>We're not just developers </Slogan>
+          <Slogan>We're not just developers</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/mugambijavan">
+          <SocialIcons href="https://github.com/mugambijavan" target="_blank" rel="noopener noreferrer">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/javan-mugambi-2351a81b0/">
+          <SocialIcons href="https://www.linkedin.com/in/javan-mugambi-2351a81b0/" target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/_javoh._/">
+          <SocialIcons href="https://www.instagram.com/_javoh._/" target="_blank" rel="noopener noreferrer">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
